@@ -32,3 +32,7 @@ CSV anagrafica articoli (opzionale):
     ...
 Separatore ',' o ';' rilevato automaticamente.
 
+#tip
+-----
+per processare in una cartella windows files generati con sistema case sensitive (che quindi potrebbero generare duplicati) 
+`fsutil.exe file setCaseSensitiveInfo C:\percorso\cartella enable`
