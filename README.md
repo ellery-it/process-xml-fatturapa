@@ -16,9 +16,10 @@ Modalità di determinazione aliquota (in ordine di priorità):
      Di default il calcolo ha sempre precedenza; il CSV è usato come fallback
      nel caso Importo == Imposta (denominatore zero).
 
-Installazione: pip  install lxml 
+Installazione: `pip  install lxml `
 
 Utilizzo:
+
     python processa_fatture.py --input C:\\fatture_in --output C:\\fatture_out
     python processa_fatture.py --input C:\\fatture_in --output C:\\fatture_out --anagrafica articoli.csv
     python processa_fatture.py --input C:\\fatture_in --output C:\\fatture_out --anagrafica articoli.csv --preferisci-csv
